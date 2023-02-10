@@ -1,4 +1,4 @@
-![image](/images/andy-profile-photo.png#floatleft)
+![image](images/andy-profile-photo.png#floatleft)
 
 I am passionate about building robots that are intuitive to interact with for complex and advanced manipulation tasks.
 

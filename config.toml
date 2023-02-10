@@ -1,4 +1,4 @@
-baseURL = "https://robodreamer.site/"
+baseURL = "//robodreamer.site/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -105,7 +105,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "This is my cool site"
   # website images for Open Graph and Twitter Cards
-  images = ["/images/andy-profile-photo.png"]
+  images = [""]
 
   # Header config
   [params.header]
