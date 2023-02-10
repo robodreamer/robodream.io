@@ -32,43 +32,67 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
-  link = ""
+  name = "Andy Park"
+  email = "andypark.purdue@gmail.com"
+  link = "https://robodreamer.site"
 
 # Menu config
 [menu]
-  [[menu.main]]
-    weight = 1
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-  [[menu.main]]
-    weight = 2
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+#  [[menu.main]]
+#    weight = 1
+#    identifier = "posts"
+#    # you can add extra information before the name (HTML format is supported), such as icons
+#    pre = ""
+#    # you can add extra information after the name (HTML format is supported), such as icons
+#    post = ""
+#    name = "Posts"
+#    url = "/ /"
+#    # title will be shown when you hover on this menu link
+#    title = ""
+#  [[menu.main]]
+#    weight = 2
+#    identifier = "tags"
+#    pre = ""
+#    post = ""
+#    name = "Tags"
+#    url = "/tags/"
+#    title = ""
+#  [[menu.main]]
+#    weight = 3
+#    identifier = "categories"
+#    pre = ""
+#    post = ""
+#    name = "Categories"
+#    url = "/categories/"
+#    title = ""
+[[menu.main]]
+  identifier = 'resume'
+  name = 'About me'
+  url = '/about/'
+[[menu.main]]
+  identifier = 'news'
+  name = 'News and Events'
+  url = '/news/'
+[[menu.main]]
+  identifier = 'projects'
+  name = 'Projects'
+  url = '/projects/'
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Blog'
+  url = '/posts/'
+[[menu.main]]
+  identifier = 'hobbies'
+  name = 'Hobbies'
+  url = '/hobbies/'
+[[menu.main]]
+  identifier = 'resources'
+  name = 'Useful Resources'
+  url = '/resources/'
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   #  which hash function used for SRI, when empty, no SRI is used
@@ -81,7 +105,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "This is my cool site"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["/images/andy-profile-photo.png"]
 
   # Header config
   [params.header]
@@ -94,7 +118,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of the LOGO
       logo = ""
       # title name
-      name = ""
+      name = "Andy Park"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -185,7 +209,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/andy-profile-photo.png"
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
