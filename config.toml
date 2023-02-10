@@ -1,10 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://robodreamer.site/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "Andy Park"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
@@ -209,11 +209,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/andy-profile-photo.png"
+      avatarURL = ""
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "This is Andy Park's personal website"
+      subtitle = "Welcome to my personal homepage!"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
