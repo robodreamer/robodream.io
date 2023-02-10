@@ -69,26 +69,90 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   identifier = 'resume'
   name = 'About me'
   url = '/about/'
-[[menu.main]]
-  identifier = 'news'
-  name = 'News and Events'
-  url = '/news/'
+  weight = 1
+  title = "About Me"
 [[menu.main]]
   identifier = 'projects'
   name = 'Projects'
   url = '/projects/'
+  weight = 2
+  title = "Projects"
 [[menu.main]]
-  identifier = 'posts'
+  identifier = 'photos'
+  name = 'Photos'
+  url = '/photos/'
+  weight = 2
+  title = "Photos"
+[[menu.main]]
+  identifier = 'blog'
   name = 'Blog'
-  url = '/posts/'
+  url = '/blog/'
+  weight = 2
+  title = "Blog"
 [[menu.main]]
   identifier = 'hobbies'
   name = 'Hobbies'
   url = '/hobbies/'
+  weight = 3
+  title = "Hobbies"
 [[menu.main]]
   identifier = 'resources'
   name = 'Useful Resources'
   url = '/resources/'
+  weight = 4
+  title = "Resources"
+
+# [[menu.main]]
+#     identifier = "home"
+#     name = "Home"
+#     url = "/"
+#     weight = 1
+#   [[menu.main]]
+#     identifier = "category"
+#     name = "Category"
+#     url = "/category"
+#     weight = 2
+#   [[menu.main]]
+#     identifier = "category1"
+#     name = "Category1"
+#     url = "/tags/category1"
+#     parent = "category"
+#     weight = 1
+#   [[menu.main]]
+#     identifier = "category2"
+#     name = "Category2"
+#     url = "/tags/category2"
+#     parent = "category"
+#     weight = 2
+#   [[menu.main]]
+#     identifier = "category3"
+#     name = "Category3"
+#     url = "/tags/category3"
+#     parent = "category"
+#     weight = 3
+#   [[menu.main]]
+#     identifier = "another-category"
+#     name = "Another Category"
+#     url = "/another-category"
+#     weight = 3
+#   [[menu.main]]
+#     identifier = "another-category1"
+#     name = "Another Category1"
+#     url = "/tags/another-category1"
+#     parent = "another-category"
+#     weight = 1
+#   [[menu.main]]
+#     identifier = "another-category2"
+#     name = "Another Category2"
+#     url = "/tags/another-category2"
+#     parent = "another-category"
+#     weight = 2
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About Us"
+#     url = "/about/"
+#     weight = 4
+
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -138,7 +202,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  whether to show the author
     author = true
     # Site creation time
-    since = 2019
+    since = 2023
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
