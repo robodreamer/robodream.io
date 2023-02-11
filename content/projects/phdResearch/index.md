@@ -11,8 +11,8 @@ draft: false
 A humanoid robot consists of two bimanual subsystems: upper-body and lower-body subsystems. We show how the manipulation tasks and biped locomotion tasks on both subsystems can be more intuitively and efficiently described using the ECTS representation. A whole-body motion controller is formulated based on Gauss's least control principle as a quadratic programming. Along with the constraints on the upper-body and lower-body constraints in terms of the ECTS representation, the actuation limits along with friction cone constraints can be also incorporated. The proposed framework has been verified on Hubo II+ robot model in V-REP simulation environment. 
 
 <p style="display: flex;">
-  <img src="images/CTS_Wholebody.png" alt="Image 1" style="margin-right: 10px; height: 350px">
-  <img src="images/overall_diagram.png" alt="Image 2" style="margin-right: 10px; height: 350px">
+  <img src="images/CTS_Wholebody.png" alt="Image 1" style="margin-right: 10px; height: 250px">
+  <img src="images/overall_diagram.png" alt="Image 2" style="margin-right: 10px; height: 250px">
 </p>
 
 **Publications:**
@@ -33,8 +33,8 @@ A humanoid robot consists of two bimanual subsystems: upper-body and lower-body 
 Using individual arm motions for describing various types of bimanual manipulation tasks, which consist of coordinated and uncoordinated movements, gives heavy burden on the operator for initial definition of a task as well as adapting the task for similar situations. Also, it often requires switching among different exiting representations depending on the type of the coordination required during the task. Thus, for a unified and more intuitive description of different types of coordinated motions in dual-arm manipulation tasks, we have extended the existing Cooperative-Task-Space representation (CTS) with two additional coefficients. Our proposed ECTS representation can enable the operator to more intuitively specify a bimanual manipulation task in terms of four coordination modes in a higher level description. Also, once the task is specified, without changing the main task specification, it can be easily adapted to similar situations. After the manipulation tasks are specified in terms of the ECTS representation as a constraint on the upper-body, for whole-body joint control purpose, we have formulated our whole-body motion controller with constraints based on Gauss’s principle of least constraint.
 
 <p style="display: flex;">
-  <img src="images/three_chain_models_categories.png" alt="Image 1" style="margin-right: 10px; height: 350px">
-  <img src="images/hubo_ECTS_icra.png" alt="Image 2" style="margin-right: 10px; height: 350px">
+  <img src="images/three_chain_models_categories.png" alt="Image 1" style="margin-right: 10px; height: 250px">
+  <img src="images/hubo_ECTS_icra.png" alt="Image 2" style="margin-right: 10px; height: 250px">
 </p>
 <img src="images/modes_table1.png" alt="Image 2" style="margin-right: 10px; height: 150px">
 
@@ -57,8 +57,8 @@ Using individual arm motions for describing various types of bimanual manipulati
 In this project, we have developed a framework on ladder-climbing control for humanoid robots. In collaboration with Indiana University, we participated in DRC-Hubo team (Track A) at DRC trial (Dec 2013 , Miami) funded by DARPA. The ladder-climbing control was proposed to model after stair-climbing minimizing the use of gripping force for climbing allowing us to use existing humanoid robots to perform ladder climbing tasks. Indiana University developed motion planning framework & software that can handle coliision avoidance better and Purdue developed algorithms and dynamics computations and control based on whole-body model of humanoid robots. 
 
 <p style="display: flex;">
-  <img src="images/ladderclimbing.png" alt="Image 1" style="margin-right: 10px; height: 350px">
-  <img src="images/LadderClimb_sim_400.gif" alt="Image 2" style="margin-right: 10px; height: 350px">
+  <img src="images/ladderclimbing.png" alt="Image 1" style="margin-right: 10px; height: 300px">
+  <img src="images/LadderClimb_sim_400.gif" alt="Image 2" style="margin-right: 10px; height: 300px">
 </p>
 
 **Publications:**
